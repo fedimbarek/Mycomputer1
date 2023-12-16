@@ -1,0 +1,67 @@
+<!--<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+    <a class="navbar-brand" routerLink="/">My Kaschke</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mmr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/">accuil</a>
+            </li>
+            <li class="nav-item ">
+<a class="nav-link" routerLink="/toolbar">product</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="/login" >admin</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" routerLink="/signin" >Sign In</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" routerLink="/signup" >Sign Up</a>
+                             </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/Magasin">Magasin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/Electronic">Electronic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/apropos">A propos</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item pointer">
+                <a (click)="logout()" class="nav-link">logout</a>
+            </li>
+
+        </ul>
+        
+    </div>
+</nav>-->
+<div class="container">
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <img src="assets/logo.png" width="100" alt="">
+    <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h2 class="m-0 text-primary"><i class="fa fa-laptop me-3"></i>MyComputer</h2>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="/" class="nav-item nav-link active">Home</a>
+            <a routerLink="/login" class="nav-item nav-link active" >admin</a>
+            <a routerLink="/signin"  class="nav-item nav-link active">signin</a>
+            <a routerLink="/signup" class="nav-item nav-link active">Sign Up</a>
+            <a routerLink="/Magasin" class="nav-item nav-link ">member</a>
+            <a routerLink="/toolbar" class="nav-item nav-link ">service</a>
+            <a routerLink="/produit" class="nav-item nav-link active">produit</a>
+            <a (click)="logout()" class="nav-link active">logout</a>
+        </div>
+       
+    </div>
+</nav>
+</div>
+

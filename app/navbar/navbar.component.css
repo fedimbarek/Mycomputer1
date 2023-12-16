@@ -1,0 +1,9 @@
+.pointer{
+    cursor:pointer;
+    margin-left: 500px;
+
+}
+nav{
+    position: fixed;
+    /* width: 100%; */
+}
